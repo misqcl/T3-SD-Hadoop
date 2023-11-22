@@ -47,4 +47,4 @@ WORKDIR /home/hduser
 # YARNSTART=0 will prevent yarn scheduler from being launched
 ENV YARNSTART 0
 
-ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+ENTRYPOINT ["docker-entrypoint.sh"]

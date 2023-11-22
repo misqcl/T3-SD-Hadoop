@@ -3,7 +3,7 @@ wiki.set_lang("es") #solo resultados en español para que se puedan encontrar la
 
 articulos = []
 urls = []
-for i in range(15):
+for i in range(2):
     titulo_articulo = wiki.random()
     
     # Recuperar un articulo aleatorio de wikipedia
@@ -15,15 +15,23 @@ for i in range(15):
 
     # Guardar contenido en la carpeta
     destino = titulo_articulo+".txt"
+
     with open(destino, "w", encoding="utf-8") as file:
         file.write(a)
 
     print("Guardado en "+destino)
     articulos.append(titulo_articulo)
     urls.append(url_articulo)
+
     print("=" * 30)
 
 print("Array de articulos:")
 print(articulos)
 print("Array de urls:")
 print(urls)
+
+array_string = '\n'.join(articulos)
+destino_array = "articulos.txt"
+
+with open(destino_array, "w", encoding="utf-8") as file:
+    file.write(array_string)
