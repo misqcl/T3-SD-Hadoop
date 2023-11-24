@@ -1,0 +1,53 @@
+Una red de frecuencia única o SFN (por su acrónimo en idioma inglés Single-Frequency Network) es una red de difusión donde varios transmisores envían simultáneamente la misma señal a través del mismo canal de frecuencia. 
+
+
+== Descripción técnica ==
+Los esquemas de las redes de frecuencia única son de algún modo análogos a los sistemas de comunicación sin cables tales como la telefonía móvil o los sistemas Wifi. Se les suele nombrar como sistemas que transmiten con macrodiversidad, con CDMA “soft handoff” o redes de frecuencia única dinámica.
+
+La transmisión con redes de frecuencia única se puede considerar como una forma de propagación multicamino. Los receptores reciben los ecos de la misma señal, de modo que pueden formar interferencia constructiva o destructiva que pueden producir desvanecimientos o “fading”. Este problema es especialmente sensible en las comunicaciones de banda ancha y las comunicaciones digitales de alta velocidad ya que los desvanecimientos son selectivos en frecuencia. También cabe tener en cuenta la llamada Interferencia Intersimbólica (ISI) debida a los ecos. Tanto los desvanecimientos como la ISI se pueden solucionar con esquemas de diversidad y filtros ecualizadores.
+En radiodifusión digital de banda ancha, la cancelación de las interferencias resulta más simple gracias a los métodos de modulación OFDM o COFDM. OFDM usa un gran número de moduladores de poco ancho de banda en lugar de un solo modulador con un gran ancho de banda. Cada modulador tiene su propio subcanal y su propia subportadora. Gracias a esto se puede introducir un intervalo de guarda entre símbolos que después nos permitirá eliminar la Interferencia Intersimbólica. Aunque los desvanecimientos sean selectivos en frecuencia, los podemos considerar llanos ya que las subportadoras que se usan son mucho más estrechas (banda estrechas). En este contexto se introducen los filtros ecualizadores y adicionalmente el sistema de corrección de errores FEC (Forward Error Correction) por si la mayoría de subportadoras se ven afectadas por los desvanecimientos y se ve comprometida la demodulación de forma correcta.
+La modulación OFDM es usada en la televisión digital terrestre (TDT) y en otros muchos sistemas de radiodifusión digital como el DAB, el HD Radio o el T-DMB. Todos ellos utilizan las redes de frecuencia única.
+Existen distintas alternativas a la modulación OFDM que utilizan las redes de frecuencia única y cancelan las interferencias con otros métodos:
+
+Receptor rake en CDMA
+Canales MIMO (Arrays con antenas en fase)
+Modulaciones con una sola portadora con la combinación de intervalos de guarda y ecualización en el dominio frecuencial.En las redes de frecuencia única, los transmisores y los receptores normalmente están sincronizados con los otros mediante GPS o una señal emitida por la estación base principal o por un reloj de referencia.
+Para sincronizar los transmisores, la información de sincronización se introduce mediante un adaptador de SFN. Estos adaptadores introducen la información de sincronización en el stream de transporte de MPEG-2. Según que estándar de televisión digital terrestre (TDT) que se use, insertan:[1]​
+
+Paquetes MIP (en DVB-T y DVB-H)
+Paquetes SIP (en el estándar chino DTMB)
+Paquetes SHIP (en DVB-SH)
+
+
+== Funcionamiento básico ==
+Cuando hay un receptor de TDT en los límites de cobertura de un transmisor, lo más habitual es que reciba señales procedentes de otros transmisores próximos que emitan el mismo programa en el mismo canal, con distintos retardos, las cuales no se pueden calificar de señales de eco, ya que todas ellas tienen idénticas modulaciones.
+Las señales de los transmisores más lejanos pueden llegar con un retardo mayor del permitido por el intervalo de guarda. Evidentemente, cuanto más lejos está, más interferencia produce. A pesar de esto, la interferencia producida por la propia red de frecuencia única debido a transmisores lejanos se puede mantener dentro de unos márgenes suficientemente pequeños como para no perturbar demasiado la señal. Debido a esto, la potencia total recibida puede verse incrementada en las localizaciones que estén a medio camino entre distintos transmisores.
+Existe la posibilidad de cubrir las zonas "muertas" (sin señal transmitida) mediante estaciones de poca potencia utilizando la misma frecuencia, por lo que la posibilidad de que quede una zona de sombra (sin cobertura) es muy baja. Si los contenidos de los programas son distintos, las redes de frecuencia única ya no son útiles y se produciría interferencia.
+
+
+== OFDM y COFDM ==
+En la transmisión digital de banda ancha, el método de modulación OFDM o COFDM facilita la cancelación de la autointerferencia. OFDM utiliza una gran cantidad de moduladores de banda angosta en lugar de un solo modulador de banda ancha. Cada modulador tiene su propia frecuencia de subcanal y subportadora. Como cada modulador es muy lento, podemos permitirnos insertar un intervalo de guarda entre los símbolos, y así eliminar el ISI. Aunque el desvanecimiento es selectivo en frecuencia en todo el canal, puede considerarse como plano dentro del subcanal de banda estrecha. Por lo tanto, se pueden evitar los filtros de ecualización avanzados. Un código de corrección de errores de reenvío (FEC) puede contrarrestar que cierta parte de las subportadoras están expuestas a un desvanecimiento excesivo para ser demoduladas correctamente.
+OFDM se utiliza en los sistemas de transmisión de TV digital terrestre DVB-T, ISDB-T, SBTVD y en ATSC 3.0. OFDM también se usa ampliamente en sistemas de radio digital, incluidos DAB, HD Radio y DTMB. Por lo tanto, estos sistemas son adecuados para la operación SFN.
+
+
+== ATSC y 8VSB ==
+Si bien no está diseñado teniendo en cuenta los repetidores en el canal, el método de modulación 8VSB utilizado en el sistema de televisión digital terrestre estadounidense ATSC, es relativamente bueno en la cancelación de fantasmas. Los primeros experimentos en WPSU-TV dieron lugar al estándar ATSC para SFN, denominado A/110.[2]​ Las SFNs de ATSC han tenido un uso más amplio en áreas montañosas como Puerto Rico y el sur del estado de California (Estados Unidos), pero también están en uso o planificadas en terrenos más suaves. 
+Los primeros sintonizadores ATSC no eran muy buenos para manejar la propagación por trayectos múltiples, pero los sistemas posteriores han visto mejoras significativas. Mediante el uso de la numeración de canales virtuales, una red multifrecuencia (MFN) puede aparecer como una SFN para el espectador en ATSC.
+
+
+== Ventajas[3]​ ==
+Menor potencia de transmisión debido a la ganancia interna. 
+Alta probabilidad de localización. 
+Facilidad de ofrecer cobertura a las zonas de sombra con la reutilización de frecuencias.
+
+
+== Desventajas[3]​ ==
+La red no se puede dividir. 
+No se pueden usar determinados canales prohibidos. 
+Es necesaria una sincronización entre los emisores.
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
