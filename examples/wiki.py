@@ -9,10 +9,10 @@ urls = []
 def articulo_wiki():
     while True:
         titulo_articulo = wiki.random()
-        if '/' not in titulo_articulo:
+        if '/' and '(' and ')' not in titulo_articulo: #Se evitan los caracteres "dañinos"
             return titulo_articulo
         
-for i in range(30):
+for i in range(1):
     titulo_articulo = articulo_wiki()
     try:
         # Recuperar un articulo aleatorio de wikipedia
@@ -24,20 +24,21 @@ for i in range(30):
         
         # Guardar contenido en variable
         print(f"Articulo aleatorio {i + 1}: {titulo_articulo}")
-
-        # Guardar contenido en la carpeta
-        if i <= 14:
-            destino = "./1-15/"+titulo_articulo+".txt"
-        else:
-            destino = "./16-30/"+titulo_articulo+".txt"
-
-        with open(destino, "w", encoding="utf-8") as file:
-            file.write(texto_articulo)
-
-        print("Guardado en "+destino)
         articulos.append(titulo_articulo)
         urls.append(url_articulo)
 
+        # Guardar contenido en la carpeta
+        titulo_articulo = titulo_articulo.replace(" ", "_") #se reemplazan los espacios para poder mover los datos con hdfs
+        if i <= 16:
+            destino = "./1/"+str(i+1)+".txt"
+        else:
+            destino = "./2/"+str(i+1)+".txt"
+
+        with open(destino, "w", encoding="utf-8") as file:
+            file.write(titulo_articulo+"\n")
+            file.write(texto_articulo)
+
+        print("Guardado en "+destino)
         print("=" * 50)
 
     except DisambiguationError as e:

@@ -3,10 +3,23 @@
 
 import sys
 import re
+documento = None
 
 for line in sys.stdin:
+    line = line.strip()
+
+    if documento is None and line:
+        documento=line.split()[0]
+
+    docs = line.lower()
+    arr = []
+    for char in [",",".",'"',"'","(",")","\\",";",":","$1","$","&"]:
+        docs = docs.replace(char, '')
+
     line = re.sub(r'\W+',' ',line.strip())
     words = line.split()
 
-    for word in words:
-        print('{}\t{}'.format(word,1))
+    arr.append('{}\t{}\t{}'.format(words,documento,1))
+
+    for i in sorted(arr):
+        print(i)
