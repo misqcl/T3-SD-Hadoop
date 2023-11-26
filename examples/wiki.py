@@ -51,8 +51,12 @@ print(articulos)
 print("Array de urls:")
 print(urls)
 
-array_string = '\n'.join(articulos)
-destino_array = "articulos.txt"
+articulos_string = '\n'.join(articulos)
+destino_articulos = "articulos.txt"
+urls_string = '\n'.join(urls)
+destino_urls = "urls.txt"
 
-with open(destino_array, "w", encoding="utf-8") as file:
-    file.write(array_string)
+with open(destino_articulos, "w", encoding="utf-8") as file:
+    file.write(articulos_string)
+with open(destino_urls, "w", encoding="utf-8") as file:
+    file.write(urls_string)
