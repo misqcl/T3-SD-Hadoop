@@ -1,126 +1,32 @@
 22
-Google Classroom es un servicio web educativo gratuito desarrollado por Google. Forma parte del paquete de G Suite for Education, que incluye Google Drive, Gmail y Google Calendar. 
-La plataforma fue lanzada el 12 de agosto de 2014.[1]​ El 29 de junio de 2015, Google anunció una API de Classroom y un botón para compartir para sitios web, permitiendo a los administradores educativos y otros desarrolladores incrementar el aprovechamiento de Classroom.[2]​ El 15 de marzo de 2017, Classroom estaba disponible para cuentas personales de Google, en particular para las cuentas estándar de Gmail.
-Concebida en sus inicios como una forma de ahorrar papel,  entre sus funciones está simplificar y distribuir tareas así como evaluar contenidos. Permite la creación de aulas virtuales dentro de una misma institución educativa, facilitando el trabajo entre los miembros de la comunidad académica. Además, sirve como nexo entre profesores, padres y alumnos agilizando todos los procesos de comunicación entre ellos.
-En sus inicios se acusó a Google de guardar historiales de búsqueda y datos de uso de otros servicios de Classroom con objetivos publicitarios.[3]​ Tras perder un juicio por este tema, Google decidió no volver a recoger este tipo de datos en ninguna de las Google Apps for Education.[4]​
-Para poder utilizarlo es necesario disponer de una cuenta de Google, aunque no es necesario descargar ninguna aplicación, todo está totalmente al alcance del usuario conectado a Internet.[5]​
+El hormiguerito del Yasuní[4]​ (Epinecrophylla fjdelsaai), también denominado hormiguerito de dorso pardo (en Perú)[5]​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al género Epinecrophylla. Es nativo de una pequeña zona en la cuenca amazónica en América del Sur.
 
 
-== Descripción ==
-A partir de una página principal se van creando aulas con alumnos. En cada una de dichas aulas el profesor puede publicar tareas con textos, audios, fotos y vídeos. Al mismo tiempo puede poner avisos, crear encuestas o recibir respuestas de los alumnos. Está disponible en un amplio número de idiomas, concretamente 42. Además, funciona en los más conocidos dispositivos móviles y lectores de pantalla. Las instituciones educativas que estén interesadas pueden entrar a esta página y probarlo. Esta herramienta forma parte de G Suite for Education, un programa que pretende introducir variedad de dispositivos y aplicaciones con finalidades educativas.[6]​
-La página dispone de cuatro pestañas:[7]​
-
-Novedades: la página principal donde los alumnos pueden ver las tareas asignadas.
-Trabajo de clase: es donde el profesorado adjunta los materiales, crear tareas muy largas y cuestionarios (utilizando Formularios de Google), así como la formulación de preguntas.
-Personas: muestra a todo el alumnado y profesorado.
-Calificaciones: es una tabla que muestra las asignaciones y los estudiantes donde los maestros ingresan las calificaciones.Fusiona el aula virtual con la red social y actúa de manera positiva como herramienta de aprendizaje semipresencial o para aplicar técnicas de aula invertida, ya que permite alojar cualquier tipo de información documental y multimedia para seguir la asignatura. Además, da acceso al trabajo colaborativo en Google Drive de manera intuitiva y controlada.[8]​
+== Distribución y hábitat ==
+Se distribuye en una restringida zona por el sureste de Ecuador (sur y oeste del río Napo) y extremo centro norte del Perú (al norte de Loreto al sur hasta el centro del río Tigre).[3]​
+Habita en el sotobosque de bosques húmedos tropicales, principalmente de tierra firme, por abajo de los 250 m s. n. m. de altitud.[6]​
 
 
-== Tareas y evaluaciones ==
-La colaboración profesor-alumno sucede a través de sus cuentas de G Suite. Cada alumno tiene su propio drive con capacidad ilimitada. Los profesores pueden adjuntar archivos para que los alumnos los vean o editen. Además puede incluso crear una plantilla editable, utilizando para ello otras herramientas de G-Suite como Documentos de Google, Hojas de Cálculo o Formularios.[9]​
-Los profesores pueden crear en Google Classroom tareas, estas pueden ir destinadas a un alumno (atendiendo a las necesidades individuales), así como a varios o a un grupo clase,[10]​ lo que facilita la formación personalizada.[11]​ El docente, cuando inserta una tarea, puede añadirle un título, dar instrucciones sobre como hacerla, indicar una fecha de entrega y adjuntar material. Las tareas ofrecen la posibilidad de añadir fecha y hora tope de entrega, temporalizando el trabajo del alumnado.[12]​ Cuando a una tarea se le añade la fecha de finalización, aparece en el calendario de clase, que enlaza con Google Calendar y está compartido por profesor y alumnos.
-Las tareas o archivos dirigidos a los alumnos tienen varias opciones: 
-
-Visualización.
-Edición del archivo. En este caso, los alumnos son capaces de trabajar en un mismo documento desde diferentes computadoras en tiempo real compartiéndolo a través de Google Drive. Esto fomenta el trabajo colaborativo con el uso de las TIC.
-Copia de documentos para que cada alumno entregue su archivo de manera individual.Los profesores pueden ver los progresos que hacen los alumnos, comentar en los archivos de estos o editarlos en tiempo real.
-Para evaluar a los alumnos los maestros pueden crear una plantilla de cálculo, se pueden instalar complementos tipo Flubaroo (que sirve para corregir exámenes tipo test y poner comentarios). Los complementos facilitan la creación de pruebas evaluables. Una vez entregados y evaluados, los archivos ya no pueden volver a ser modificados por el alumno.
-Incorpora un apartado denominado calificaciones. El profesor podrá calificar las diferentes tareas pudiendo elegir puntuaciones totales o ponderadas y después descargar las notas en formato hojas de cálculo de Google o formato CSV. También podrá organizar las tareas por categorías de calificación, utilizar rúbricas en la evaluación y sincronizar el libro de calificaciones con la plataforma de gestión que utilice el centro.[13]​
-Classroom, incluye una nueva herramienta antiplagio, para facilitar la labor del profesorado.[14]​
+== Sistemática ==
 
 
-== Optimización de tiempo ==
-Es una buena herramienta para que los docentes puedan optimizar el tiempo en sus aulas.[15]​ Estos no perderán tiempo en introducir a los alumnos en el aula de Google Classroom, ya que los profesores pueden añadir estudiantes dándoles un código para que se unan a la clase. Esto deja más tiempo para enseñar, ya que no es necesario añadir manualmente a los alumnos uno por uno.
-Además podrán mandar las tareas a través de la plataforma, esto tiene dos ventajas: 1) No se pierde tiempo en clase en dictar las tareas ni en explicarlas y 2) Los docentes pueden  reutilizar anuncios, tareas o preguntas hechas en otras clases. También se pueden compartir posts entre varias clases o archivar clases para el futuro.
-Por otra parte ofrece la posibilidad de programar el trabajo, para un día y fecha concreta para así mantener el orden y las horas presenciales del alumnado.[16]​ 
-También permite gestionar el aprendizaje virtual o semi-presencial a la comunidad educativa. Se puede conformar un curso y a partir de ahí crear tanto las asignaturas que imparta el tutor, como aquellas que sean de los especialistas, de manera que todo quede optimizado en una misma pantalla.[17]​
-Mejora la comunicación con los padres para ver el progreso de sus hijos y a su vez también se favorece la retroalimentación con el alumnado a través de las notificaciones, correcciones de tareas, videoconferencias.[18]​
-A la hora de evaluar los docentes afirman que la evaluación en línea es más fácil y rápida que la impresa.[19]​
-Desde abril de 2020 , G-Suite incluye la posibilidad, de iniciar videollamadas a través de Google Meet directamente desde Classroom facilitando un código al alumnado, lo que hace mucho más rápidas y cómodas las clases en la educación a distancia.[20]​
+=== Descripción original ===
+La especie E. fjeldsaai fue descrita por primera vez por los ornitólogos Niels Krabbe, Morton L. Isler, Phyllis R. Isler, Bret M. Whitney, José Álvarez Alonso & Paul J. Greenfield en 1999 bajo el nombre científico Myrmotherula fjeldsaai; localidad tipo «cerca del Río Tiputini, 37 km de ruta al sur-sureste de Pompeya, Provincia de Napo, Ecuador; 0°38′S 76°26′W, altitud 275 m».[2]​    
 
 
-== Comunicación profesor-alumno ==
-El profesor, a través de Classroom, puede poner anuncios a la clase y los alumnos responder y viceversa. Es una herramienta que pretende facilitar la comunicación entre estos colectivos. Además también se pueden crear encuestas, ya sea de respuesta abierta o cerrada, realizar debates en el aula virtual, lanzar una pregunta a modo de ejercicio para realizarlo en casa, decidir qué día se realiza una excursión, un examen...
-Asimismo, permite mandar correos electrónicos a cada uno de los alumnos por separado.
-Los anuncios pueden incluir diferentes recursos multimedia adjuntos, donde el docente comparte información con sus alumnos, como por ejemplo:
-
-Vídeos de YouTube.
-Google Forms.
-Documentos de Google Drive
-Google Calendar
-Google Spreadsheets
+=== Etimología ===
+El nombre genérico femenino «Epinecrophylla» proviene del griego «epi»: sobre, «nekros»: muerto, y «phullon»: hoja; significando «sobre hojas muertas», reflejando la fuerte predilección de las especies de este género por buscar insectos en hojas muertas colgantes;[7]​ y el nombre de la especie «fjeldsaai», homenajea al ornitólogo danés Jon Fjeldså.[8]​
 
 
-== Ventajas ==
-Como herramienta de apoyo a la educación presencial, se pueden citar múltiples ventajas.[21]​
-
-Esta herramienta fomenta el trabajo colaborativo, da información en tiempo real y se complementa perfectamente con la educación presencial.
-Fomenta el aprendizaje omnipresente donde el alumno organiza sus tiempos para acceder a los recursos.
-Existe un intercambio de ideas e información permanente. Incluso si un debate se ha quedado interrumpido en el aula por falta de tiempo, se puede continuar en la herramienta.Asimismo, también presenta ventajas como herramienta para llevar a cabo procesos de aula invertida:
-
-El alumno pasa a ser, desde el primer momento, el protagonista de su propio aprendizaje.[22]​
-Los alumnos son sujetos activos, adquieren responsabilidad, interaccionan y participan. Tienen un alto grado de compromiso para con su propio aprendizaje.[23]​
-Tiempo extenso para revisar conceptos teóricos y usar la clase para resolución de dudas, de manera individual o incluso colectiva.[24]​
-Diversidad de alumnado atendida. El profesor encarga actividades diversificadas adaptadas a todo tipo de alumnado.[22]​
-Aprendizaje más significativo. Menos memoria y mejora de aprendizaje que perdure en el tiempo, que realmente les sirva para defenderse en la sociedad.[25]​
-Desarrollo de competencias mediante el  uso de las TIC, trabajo colaborativo, autonomía del alumnado, etc.[26]​
-Aumento de la motivación. El aprendizaje pasa a ser un proceso divertido. El alumno no memoriza tanto. Adquieren habilidades, les hace autónomos y toman decisiones:[27]​
-Para consultar y reutilizar cursos ya terminados: una vez que un curso ya se ha archivado, los estudiantes y profesores pueden verlo pero sin hacer cambios hasta que se restablece.
-Para tener retroalimentación habitual entre padres y alumnos de manera sencilla.
-Para compartir ejemplos de trabajos con los alumnos.
-Para crear subdivisiones de grupos de alumnos en cada clase (por ejemplo alumnos con el mismo nivel de conocimientos matemáticos).
-
-
-== Desventajas ==
-Por otro lado, existen una serie de desventajas.[28]​ Para aquellas personas que no son entendidas del tema, las pueden ver acertadas. En cambio, existen otras personas, tales como informáticos, que pueden rebatir estas desventajas y transformarlas en ventajas. Algunas de ellas serían:[29]​
-
-Se requiere una conexión a Internet ininterrumpida para que funcione correctamente.
-Una inestabilidad de la red puede provocar que se deba dejar de impartir la sesión de forma inesperada.
-La documentación facilitada por el docente puede no estar correctamente contrastada, debido a la cantidad de información inexacta que encontramos en Internet.
-Cabe la posibilidad de que existan estudiantes que se esfuercen menos en hacer sus tareas, debido a la mala práctica del copia/pega.
-El uso adictivo de las nuevas tecnologías hace que descuides otros aspectos del día a día.
-Puede provocar un aislamiento, en el caso de que no se utilice una plataforma apta para favorecer la interacción real con los otros.
-El docente invierte mucho tiempo para realizar los materiales, lo que implica más trabajo para él.
-Pasar demasiado tiempo delante de una pantalla puede acarrear problemas de salud.
-Incompatibilidad con contenidos de SCORM y Learning Tools Interoperability
-Ecosistema de Google limitado.[30]​
-No es una plataforma LMS, careciendo de características que ofrecen otros sistemas de gestión del aprendizaje.[31]​
-
-
-== Aplicación móvil ==
-Google Classroom es un servicio con distintas oportunidades de acceso. Es posible acceder al mismo a través de iOS, Android, Windows, Mac, Chrome y prácticamente de cualquier otro dispositivo que pueda ejecutar una ventana del navegador dentro de él.[32]​
-Está disponible para Android en Play Store,[33]​ y en iOS en App Store (iOS).[34]​ En ambos soportes, existe un apartado de preguntas frecuentes donde los profesores pueden obtener información sobre las funciones de la misma. 
-La aplicación para Google Chrome OS se puede descargar en Chrome Web Store.[35]​ Si en el centro educativo se utiliza un dispositivo administrado por Chrome OS o por IOS, los profesores pueden acceder a Google Workspace y, desde ahí, enviar la aplicación a los dispositivos de sus alumnos.[36]​
-Existen a disposición del usuario muchas aplicaciones educativas que pueden ser combinadas con Google Classroom, la mayoría de ellas compatibles con Google Chrome, iOS y Android, como:[37]​
-
-Actively Learn (lectoescritura)[38]​
-Class Craft (gamificación)[39]​
-Edpuzzle (vídeos explicativos personalizados)
-Flat for education (música)[40]​
-
-
-== Recibimiento y críticas ==
-E-Learning Industry hizo una revisión con críticas positivas y negativas.[41]​
-Entre los puntos fuertes de Classroom:
-
-Facilidad de uso.
-Facilidad de acceso por medio de múltiples dispositivos.
-El uso de Google Drive para compartir recursos y facilitar el trabajo de los docentes.
-Ahorro de papel y procesos de impresión.
-Retroalimentación entre profesores y alumnos.
-Programación de tareas a realizar y entregas con o sin fecha determinada.
-La última modificación permite el acceso con cuentas estándar de Google, lo que facilita la integración de estudiantes visitantes o temporales.[42]​Como puntos débiles establecen:
-
-La integración de las apps y servicios de Google, sin otros servicios externos.
-La ausencia de foros o chats.
-Uso de Google Workspace para complementar la aplicación.
-Presenta limitaciones en el seguimiento del aprendizaje del alumnado.
-Costosa preparación de recursos y material por parte del profesorado.Está en constante desarrollo. Una lista actualizada de las novedades se puede encontrar en el blog de Classroom.[43]​ Dispone de una guía de uso en su página web.[44]​
-
-
-== Véase también ==
-Google Chat
-Google Meet
+=== Taxonomía ===
+Diversos autores sugirieron que el género Myrmotherula no era monofilético, uno de los grupos que fueron identificados como diferente del Myrmotherula verdadero fue el grupo de garganta punteada o haematonota, cuyos miembros comparten similitudes de plumaje, de hábitos de alimentación y de vocalización. Finalmente, análisis filogenéticos de la familia conducidos por Isler et al. (2006), incluyendo 6 especies del grupo haematonota y más 12 de Myrmotherula, encontraron que los dos grupos no estaban hermanados. Para aquel grupo fue descrito el género Epinecrophylla.[9]​ La separación en el nuevo género fue aprobada por la Propuesta N° 275 al South American Classification Committee (SACC) en mayo de 2007.[10]​
+Algunos autores más recientes tratan a la presente especie como la subespecie Epinecrophylla haematonota fjeldsaai, con base en la similitud de vocalización y poca diferencia de plumaje, y a análisis genéticos.[11]​[12]​
 
 
 == Referencias ==
+
+
+== Enlaces externos ==
+ Wikispecies tiene un artículo sobre Epinecrophylla fjeldsaai.
+Videos, fotos y sonidos de Epinecrophylla fjeldsaai en The Internet Bird Collection.
+Sonidos y mapa de distribución de Epinecrophylla fjeldsaai en xeno-canto.
