@@ -19,7 +19,8 @@ for line in sys.stdin:
     line = re.sub(r'\W+',' ',line.strip())
     words = line.split()
 
-    arr.append('{}\t{}\t{}'.format(words,documento,1))
+    for word in words:
+        arr.append('{}\t{}\t{}'.format(word,documento,1))
 
     for i in sorted(arr):
         print(i)

@@ -12,40 +12,44 @@ def articulo_wiki():
         if '/' and '(' and ')' not in titulo_articulo: #Se evitan los caracteres "dañinos"
             return titulo_articulo
         
-for i in range(1):
+for i in range(30):
     titulo_articulo = articulo_wiki()
     try:
         # Recuperar un articulo aleatorio de wikipedia
         contenido=wiki.page(titulo_articulo).content
         soup=BeautifulSoup(contenido,'html.parser')
-        texto_articulo=soup.get_text()
-
-        url_articulo=wiki.page(titulo_articulo).url
-        
-        # Guardar contenido en variable
-        print(f"Articulo aleatorio {i + 1}: {titulo_articulo}")
-        articulos.append(titulo_articulo)
-        urls.append(url_articulo)
-
-        # Guardar contenido en la carpeta
-        titulo_articulo = titulo_articulo.replace(" ", "_") #se reemplazan los espacios para poder mover los datos con hdfs
-        if i <= 16:
-            destino = "./1/"+str(i+1)+".txt"
-        else:
-            destino = "./2/"+str(i+1)+".txt"
-
-        with open(destino, "w", encoding="utf-8") as file:
-            file.write(titulo_articulo+"\n")
-            file.write(texto_articulo)
-
-        print("Guardado en "+destino)
-        print("=" * 50)
 
     except DisambiguationError as e:
         # Elige la primera opcion en caso de error
         selected_option = e.options[0]
-        print(f"Disambiguation error. Selecting option: {selected_option}")
+        print(f"--------------Disambiguation error. Selecting option: {selected_option}-----------")
         titulo_articulo = selected_option
+        contenido=wiki.page(titulo_articulo).content
+        soup=BeautifulSoup(contenido,'html.parser')
+        
+    texto_articulo=soup.get_text()
+    url_articulo=wiki.page(titulo_articulo).url
+
+    # Guardar contenido en variable
+    print(f"Articulo aleatorio {i + 1}: {titulo_articulo}")
+    articulos.append(titulo_articulo)
+    urls.append(url_articulo)
+
+    # Guardar contenido en la carpeta
+    titulo_articulo = titulo_articulo.replace(" ", "_") #se reemplazan los espacios para poder mover los datos con hdfs
+    if i <= 14:
+        destino = "./1/"+str(i+1)+".txt"
+    else:
+        destino = "./2/"+str(i+1)+".txt"
+
+    with open(destino, "w", encoding="utf-8") as file:
+        file.write(str(i+1)+"\n")
+        file.write(texto_articulo)
+
+    print("Guardado en "+destino)
+    print("=" * 150)
+
+    
 
 print("Array de articulos:")
 print(articulos)

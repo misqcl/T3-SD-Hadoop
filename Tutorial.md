@@ -1,38 +1,37 @@
 ## T3 Hadoop MapReduce
-
-## Cómo correr el contenedor
-
-Para poder levantar el contenedor:
-
+	En la carpeta T3-SD-HADOOP
 	docker build -t hadoop . 
 	docker run --name hadoop -p 9864:9864 -p 9870:9870 -p 8088:8088 -p 9000:9000 --hostname sd hadoop
-
-Podemos ver si el contenedor está listo para correr viendo si se levantó la interfaz gráfica de Hadoop:
-
-`curl 'http://localhost:9870/dfshealth.html#tab-overview' | grep 'active'`
-
-## Cómo entrar al contenedor
-
 	docker exec -it hadoop bash
 
-## Qué hacer antes de levantar código
-hdfs dfs -mkdir /user
-hdfs dfs -mkdir /user/hduser
-hdfs dfs -mkdir input
+## Dentro del contenedor
+	hdfs dfs -mkdir /user
+	hdfs dfs -mkdir /user/hduser
+	hdfs dfs -mkdir input
+	sudo chown -R hduser .
 
-## Cómo probar el código
+## Probar en un solo .txt
+	cd examples/
+	cat 1/1.txt | python mapper.py 	# Para ver los output del mapper
+	cat 1/1.txt | python mapper.py| sort -k1,1 | python reducer.py	# Para ver los output del mapper y reducer
 
-	cat data.txt | python mapper.py | sort -k1,1 | python reducer.py
+## Pasamos el input al hdfs
+	hdfs dfs -put text.txt input
+	-Desde el 1/1.txt al 2/30.txt-
+	No hice código que lo haga automáticamente, pero gracias al nombre de 
+	las carpetas y archivos no es tan tedioso
 
----
-
-Pasamos el input al hdfs;
-	`hdfs dfs -put data-text.txt input`
-
-## Cómo levantar código
-Hacemos lo siguiente en el directorio donde se encuentran los archivos:
-
+## Código streaming
 	mapred streaming -files mapper.py,reducer.py -input /user/hduser/input/*.txt -output /user/hduser/output -mapper ./mapper.py -reducer ./reducer.py
 
-Dado que específicamos que el output se guardara en  `/user/hduser/output`, podemos ver la salida del Job :
-	`hdfs dfs -cat /user/hduser/output/*`
+## Al finalizar el código, es útil traer los datos del output, usando los siguientes comandos
+	hdfs dfs -get /user/hduser/output/ /home/hduser/examples # Trae la carpeta output a la carpeta examples
+	exit	# Salimos del hdfs
+	docker cp hadoop:/home/hduser/examples/output examples # Traemos la carpeta desde hadoop a nuestro ambiente de código
+
+## Pasar datos a JSON
+	python tojson.py
+	node app.js
+	
+	Usar postman con
+	http://localhost:3000/top5documents?name=externos
